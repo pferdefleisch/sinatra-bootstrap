@@ -4,7 +4,7 @@
 
 Sinatra Bootstrap supports:
 
-* [Haml](http://haml-lang.com/)
+* [Slim](http://slim-lang.com/)
 * [Sass](http://sass-lang.com/)
 * [Compass](https://github.com/chriseppstein/compass)
 * [Grid Coordinates](https://github.com/adamstac/grid-coordinates)

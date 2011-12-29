@@ -1,11 +1,7 @@
-@import compass/reset
-@import compass/utilities
-@import compass/css3
-
 // Base font
-=font-default
+@mixin font-default
   font: 13px Arial, Helvetica, sans-serif
-  
+
 // Links
 a
   color: #3366CC
@@ -32,7 +28,6 @@ body
     text-align: center
     width: 100%
   ul
-    +border-radius(6px)
     background: #e7e7e7
     border: 1px solid #ccc
     margin-top: 10px
@@ -47,3 +42,4 @@ body
         text-decoration: none
         &:hover
           text-decoration: underline
+

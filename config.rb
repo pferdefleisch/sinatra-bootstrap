@@ -1,11 +1,8 @@
-require './app'
-
 # Compass Configuration
 
 require 'grid-coordinates'
 
 # Configuration to use when running within Sinatra
-project_path          = Sinatra::Application.root
 
 # HTTP paths
 http_path             = '/'
@@ -15,7 +12,7 @@ http_javascripts_path = '/javascripts'
 
 # File system locations
 css_dir               = File.join 'public', 'stylesheets'
-sass_dir              = File.join 'views', 'stylesheets'
+sass_dir              = 'sass'
 images_dir            = File.join 'public', 'images'
 javascripts_dir       = File.join 'public', 'javascripts'
 
