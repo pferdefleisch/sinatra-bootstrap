@@ -1,0 +1,5 @@
+h1 FOOS!
+ul
+  - @foos.each do |foo|
+    li
+      a href="/foos/#{foo[:id]}"= foo.bar

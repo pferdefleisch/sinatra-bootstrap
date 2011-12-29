@@ -6,6 +6,8 @@ gem 'sinatra', '~> 1.3'
 gem 'sinatra-contrib', '~> 1.3'
 gem 'shotgun', '~> 0.9'
 gem 'slim', '~> 1.0'
+gem 'sqlite3'
+gem 'sequel'
 
 # Sass & Compass
 gem 'sass', '~> 3'
