@@ -6,6 +6,6 @@ Sequel.migration do
     end
   end
   down do
-    drop_table(:artists)
+    drop_table(:foos)
   end
 end
